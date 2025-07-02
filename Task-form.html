@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1><strong>Create Account</strong></h1><br>
+
+    <form action="/submit" method="post">
+        <label for="name"><strong>*Firstname: </strong></label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="name"><strong>Lastname:</strong></label><br><br>
+        <input size="50px" type="text" id="name" placeholder="Enter your first name"> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  <input size="50px" type="text" id="name" placeholder="Enter your last name"><br><br>
+        <br>
+        <label="Email"><strong>*Email:</strong></label> <br><br>
+       <input size="144px" type="email" id="email" placeholder="Enter your email  " required><br><br>
+
+        <label for="Password"><strong>*Password</strong> </label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <label for="Password"><strong>*Confirm Password</strong></label><br><br>
+        <input size="50px" type="password" id="Password" placeholder="Enter your Password" required>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input size="50px" type="password" id="Password" placeholder="Enter your Password again" required>
+        <br><br>
+
+    <strong>Gender:</strong> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <strong>Hobbies:</strong><br><br>
+    <input type="radio" id="male" name="gender">
+    <label for="male">Male:</label>
+
+    <input type="radio" id="female" name="gender">
+    <label for="female">Female:</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+    <input type="checkbox" id="reading" name="hobbies[]" value="reading">
+    <label for="reading">Reading:</label>
+
+    <input type="checkbox" id="sports" name="hobbies[]" value="sports">
+    <label for="sports">Sports:</label>
+
+    <input type="checkbox" id="travel" name="hobbies[]" value="travel">
+    <label for="travel">Travel:</label>
+
+    <input type="checkbox" id="music" name="hobbies[]" value="music">
+    <label for="music">Music:</label><br><br>
+
+    <label for="Source of Income"><b><strong>Source of Income:</strong></b></label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="Income"><B><strong>Income</strong></B></label><br>
+    <br>
+    <input type="hidden">
+        <select>
+            <option value=""></option>
+            <option value="Employee">
+            Employee
+        </option>
+        <option value="Manager">
+            Manager
+        </option>
+        </select>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="range" id="Income">20k
+        <br><br>
+        <label for="Upload Profile Picture"><strong>Upload Profile Picture</strong></label>&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="Age"><strong>Age</strong></label><br><br>
+        <input type="file" id="Upload Profile Picture">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="number" id="Age" placeholder="Enter your Age">
+        <br><br>
+
+        <label for="bio"><strong>Bio</strong></label><br>
+        <input size="150" type="text">                                 
+        <br><br>
+        <input type="submit"  value="Create">
+
+    
+    </form>
+
+</body>
+</html>
