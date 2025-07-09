@@ -1,0 +1,71 @@
+.grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.a
+{
+    background-color: skyblue;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border: 3px solid white;
+    text-align: center;
+}
+.b
+{
+    background-color: rgb(196, 41, 3);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border: 3px solid white;
+    text-align: center;
+}
+.c
+{
+    background-color: rgb(10, 40, 104);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border: 3px solid white;
+    text-align: center;
+}
+.d{
+    background-color: yellow;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border: 3px solid white;
+    text-align: center;
+}
+.e{
+    background-color: rgb(88, 22, 88);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border: 3px solid white;
+    text-align: center;
+}
+.f{
+    background-color: green;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border: 3px solid white;
+    text-align: center;
+}
+.g{
+    background-color: rgb(255, 120, 43);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border: 3px solid white;
+    text-align: center;
+}
+.h{
+    background-color: rgb(11, 110, 64);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border: 3px solid white;
+    text-align: center;
+}
+.i{
+    background-color: rgb(49, 13, 13);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border: 3px solid white;
+    text-align: center;
+}
