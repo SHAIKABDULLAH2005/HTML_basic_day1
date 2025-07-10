@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    width: 560px;
+    padding: 20px;
+    border: 1px dashed;
+}
+.rectangle{
+    height: 110px;
+    width: 110px;
+    padding: 0;
+    margin: 5px;
+    margin-left: 45px;
+    border-radius: 10px;
+}
+.green{
+    background-color: green;
+    padding-left: 100px ;
+    padding-bottom: 100px;
+}
+.yellow{
+    background-color: yellow;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
