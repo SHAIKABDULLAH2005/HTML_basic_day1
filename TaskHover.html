@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .button{
+            height: 50px;
+            margin: 50px;
+            width: 150px;
+            padding: 10px 20px;
+            color: black;
+            background-color: lightcoral;
+            cursor: pointer;
+            border-radius: 5px;
+            border: 2px;
+            border-radius: 5px;
+           
+        
+        }
+        .button:hover{ 
+            background-color: lightblue;
+            color: white;
+            transition: background-color 0.3s ease, transform 8s; 
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+            margin: 150px;
+            background-color: rgb(8, 6, 122);
+            position: absolute;
+            left: 0;
+            transition: left 5s;
+        }
+        .box:hover{left: 800px;}
+        .box1{
+            height: 100px;
+            width: 100px;
+           
+            margin: 350px;
+            background-color: rgb(255, 0, 0);
+           transform: 1s;
+        }
+        .box1:hover{transform: scale(2.2);
+        background-color: gold;
+        border-left: 50px;
+        border-right: 50px;
+        border-top:0;
+        border-bottom: 50px;
+         }
+    </style>
+</head>
+<body>
+    <button class="button">Hover Task</button>
+    <div class="box"></div>
+    <div class="box1"></div>
+    
+</body>
+</html>
